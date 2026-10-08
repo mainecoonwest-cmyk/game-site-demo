@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Quest</title>
+    <meta
+      name="description"
+      content="A clean orange and purple game landing page with a Play button and About page."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="top-warning" id="topWarning">
+      <span class="warning-tag">WARNING</span>
+      <p>
+        Not made with Zite — this was a stupid sponsorship I agree to. This site is
+        a clean game portal and not an official Zite product.
+      </p>
+      <button class="close-warning" aria-label="Dismiss warning" id="closeWarning">
+        ×
+      </button>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">NQ</span>
+          <span>Neon Quest</span>
+        </div>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Arcade • Adventure • Speed</p>
+            <h1>Jump into the next big challenge.</h1>
+            <p class="subtitle">
+              Explore our game portal, launch the experience, and get ready for a fast,
+              colorful adventure built for players who love a sharp look and a quick start.
+            </p>
+
+            <div class="cta-row">
+              <a
+                class="play-button"
+                href="https://wy93pnn8xs.zite.so"
+                target="_blank"
+                rel="noreferrer"
+              >
+                ▶ Play Now
+              </a>
+              <a class="secondary-button" href="about.html">About This Game</a>
+            </div>
+
+            <ul class="feature-list" aria-label="Game highlights">
+              <li>Fast launch</li>
+              <li>Arcade energy</li>
+              <li>Play-ready experience</li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Featured game preview">
+            <div class="game-screen">
+              <div class="screen-glow"></div>
+              <div class="pixel-orb orb-1"></div>
+              <div class="pixel-orb orb-2"></div>
+              <div class="pixel-orb orb-3"></div>
+              <div class="game-info">
+                <span>Level 01</span>
+                <strong>Skyline Rush</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
